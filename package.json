@@ -1,0 +1,24 @@
+{
+  "name": "CCT-JSTraing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "gitbook serve ./content ./docs",
+    "build": "gitbook build ./content ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDeepspace/CCT-JSTraning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDeepspace/CCT-JSTraning/issues"
+  },
+  "homepage": "https://github.com/IDeepspace/CCT-JSTraning#readme"
+}
