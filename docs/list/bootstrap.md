@@ -1,6 +1,6 @@
 ### 学习目标
 
-学会使用 Bootstrap UI 组件
+* 学会使用 Bootstrap UI 组件
 
 ### 练习要求
 
