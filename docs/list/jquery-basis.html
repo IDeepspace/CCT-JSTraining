@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Bootstrap · GitBook</title>
+        <title>四、jQuery 基础 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="js-basis.html" />
+    <link rel="next" href="js-dom.html" />
     
     
-    <link rel="prev" href="h5-css3.html" />
+    <link rel="prev" href="js-basis.html" />
     
 
     </head>
@@ -142,7 +142,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.2" data-path="bootstrap.html">
+        <li class="chapter " data-level="1.3.2" data-path="bootstrap.html">
             
                 <a href="bootstrap.html">
             
@@ -173,7 +173,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="jquery-basis.html">
+        <li class="chapter active" data-level="1.5" data-path="jquery-basis.html">
             
                 <a href="jquery-basis.html">
             
@@ -242,7 +242,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Bootstrap</a>
+        <a href=".." >四、jQuery 基础</a>
     </h1>
 </div>
 
@@ -257,30 +257,40 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="&#x5B66;&#x4E60;&#x76EE;&#x6807;">&#x5B66;&#x4E60;&#x76EE;&#x6807;</h3>
+                                <h3 id="&#x5199;&#x5728;&#x6700;&#x524D;">&#x5199;&#x5728;&#x6700;&#x524D;</h3>
+<p>&#x5728;&#x4E0A;&#x4E00;&#x8282;&#x6211;&#x4EEC;&#x5B66;&#x4E60;&#x4E86; JavaScipt &#x7684;&#x57FA;&#x7840;&#x8BED;&#x6CD5;&#xFF0C;&#x4F46;&#x662F;&#x6211;&#x4EEC;&#x5E76;&#x6CA1;&#x6709;&#x6DF1;&#x5165;&#xFF0C;&#x800C;&#x662F;&#x8FDB;&#x5165;&#x4E86; jQuery &#x7684;&#x5B66;&#x4E60;&#x3002;</p>
+<p><strong> &#x8FD9;&#x6837;&#x662F;&#x56E0;&#x4E3A;&#xFF1A; </strong></p>
+<p>&#x6211;&#x4EEC;&#x5728;&#x4E4B;&#x524D;&#x5B66;&#x4E60;&#x4E86; HTML/CSS &#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5C06; JavaScript &#x4E0E;&#x5176;&#x8FDE;&#x63A5;&#x8D77;&#x6765;&#xFF0C;&#x4F46;&#x662F;&#x4F7F;&#x7528;&#x539F;&#x751F; JavaScript &#x505A;&#x8FD9;&#x4EF6;&#x4E8B;&#x60C5;&#xFF0C;&#x5BF9;&#x4E8E;&#x521D;&#x5B66;&#x8005;&#x662F;&#x975E;&#x5E38;&#x56F0;&#x5E76;&#x4E14;&#x975E;&#x5E38;&#x67AF;&#x71E5;&#x7684;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x6211;&#x4EEC;&#x4ECE; jQuery &#x5148;&#x5165;&#x624B;&#xFF0C;jQuery &#x662F;&#x5F88;&#x5BB9;&#x6613;&#x4E0A;&#x624B;&#x3002;&#x5728;&#x4F7F;&#x7528; jQuery&#xFF0C;&#x5BF9; web &#x5F00;&#x53D1;&#x6709;&#x4E00;&#x4E9B;&#x8BA4;&#x8BC6;&#x4E4B;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x518D;&#x53BB;&#x6DF1;&#x5165;&#x539F;&#x751F; JavaScript&#xFF01;</p>
+<h3 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h3>
+<p>jQuery &#x5C31;&#x662F; JavaScipt &#x7684;&#x4E00;&#x4E2A;&#x5E93;&#xFF0C;&#x628A;&#x6211;&#x4EEC;&#x5E38;&#x7528;&#x7684;&#x4E00;&#x4E9B;&#x529F;&#x80FD;&#x8FDB;&#x884C;&#x4E86;&#x5C01;&#x88C5;&#xFF0C;&#x65B9;&#x4FBF;&#x6211;&#x4EEC;&#x6765;&#x8C03;&#x7528;&#xFF0C;&#x63D0;&#x9AD8;&#x6211;&#x4EEC;&#x7684;&#x5F00;&#x53D1;&#x6548;&#x7387;&#x3002;&#x6781;&#x5927;&#x5730;&#x7B80;&#x5316;&#x4E86; JavaScipt &#x7F16;&#x7A0B;&#x3002;</p>
+<p>JavaScipt &#x8DDF; jQuery &#x7684;&#x533A;&#x522B;&#xFF1A;</p>
 <ul>
-<li>&#x719F;&#x6089; Bootstrap &#x5E38;&#x7528;&#x7EC4;&#x4EF6;&#x7684;&#x4F7F;&#x7528;</li>
-<li>&#x7406;&#x89E3; Bootstrap &#x6805;&#x683C;&#x7CFB;&#x7EDF;&#x548C;&#x54CD;&#x5E94;&#x5F0F;&#x5E03;&#x5C40;</li>
-<li>&#x5B66;&#x4F1A;&#x4F7F;&#x7528; Bootstrap UI &#x7EC4;&#x4EF6;</li>
+<li><p>JavaScipt &#x662F;&#x4E00;&#x95E8;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#xFF0C;&#x6211;&#x4EEC;&#x7528;&#x5B83;&#x6765;&#x7F16;&#x5199;&#x5BA2;&#x6237;&#x7AEF;&#x6D4F;&#x89C8;&#x5668;&#x811A;&#x672C;&#x3002;</p>
+</li>
+<li><p>jQuery &#x662F; JavaScipt &#x7684;&#x4E00;&#x4E2A;&#x5E93;&#xFF0C;&#x5305;&#x542B;&#x591A;&#x4E2A;&#x53EF;&#x91CD;&#x7528;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x8F85;&#x52A9;&#x6211;&#x4EEC;&#x7B80;&#x5316; JavaScipt &#x5F00;&#x53D1;</p>
+</li>
+<li><p>jQuery &#x80FD;&#x505A;&#x7684; JavaScipt &#x90FD;&#x80FD;&#x505A;&#x5230;&#xFF0C;&#x800C; JavaScipt &#x80FD;&#x505A;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;jQuery &#x4E0D;&#x4E00;&#x5B9A;&#x80FD;&#x505A;&#x5230;&#x3002;</p>
+</li>
 </ul>
-<h3 id="&#x7EC3;&#x4E60;&#x8981;&#x6C42;">&#x7EC3;&#x4E60;&#x8981;&#x6C42;</h3>
-<p>&#x81EA;&#x5DF1;&#x52A8;&#x624B;&#x505A;&#x4E00;&#x4E2A;&#x8DDF;&#x53C2;&#x8003;&#x7B80;&#x5386;&#x6837;&#x5F0F;&#x63A5;&#x8FD1;&#x7684;&#x9875;&#x9762;&#x3002;&#x4E0D;&#x8981;&#x6C42;&#x4E25;&#x683C;&#x4E00;&#x6837;&#xFF0C;&#x4F46;&#x662F;&#x5E03;&#x5C40;&#x548C;&#x6837;&#x5F0F;&#x9700;&#x8981;&#x63A5;&#x8FD1;&#x3002;</p>
-<p>&#x53C2;&#x8003;&#x7B80;&#x5386;&#xFF1A;<a href="http://wrapbootstrap.com/preview/WB0265951" target="_blank">http://wrapbootstrap.com/preview/WB0265951</a></p>
-<h3 id="&#x89C6;&#x9891;&#x6559;&#x7A0B;">&#x89C6;&#x9891;&#x6559;&#x7A0B;</h3>
+<h3 id="&#x5B66;&#x4E60;&#x76EE;&#x6807;">&#x5B66;&#x4E60;&#x76EE;&#x6807;</h3>
 <ul>
-<li>&#x6155;&#x8BFE;&#x7F51; &#x73A9;&#x8F6C; Bootstrap&#xFF08;&#x57FA;&#x7840;&#xFF09;&#xFF1A;<a href="https://www.imooc.com/learn/141/" target="_blank">https://www.imooc.com/learn/141/</a></li>
+<li>&#x5B66;&#x4F1A; jQuery &#x7684;&#x57FA;&#x7840;&#x4F7F;&#x7528;</li>
+<li>&#x4F7F;&#x7528; HTML/CSS/BootStrap/jQuery&#xFF0C;&#x4EFF;&#x7167; <a href="http://www.cssmoban.com/tags.asp?n=jquery" target="_blank">&#x6A21;&#x677F;&#x4E4B;&#x5BB6;</a> &#x4E2D;&#x7684;&#x6A21;&#x677F;&#xFF0C;&#x5199;&#x4E00;&#x4E2A;&#x81EA;&#x5DF1;&#x6EE1;&#x610F;&#x7684;&#x7F51;&#x7AD9;</li>
 </ul>
-<h3 id="&#x53C2;&#x8003;&#x6587;&#x6863;">&#x53C2;&#x8003;&#x6587;&#x6863;</h3>
+<h3 id="&#x5B66;&#x4E60;&#x5185;&#x5BB9;">&#x5B66;&#x4E60;&#x5185;&#x5BB9;</h3>
+<p>jQuery &#x7684;&#x5B66;&#x4E60;&#x5206;&#x4E3A;&#x56DB;&#x7BC7;&#xFF0C;&#x5206;&#x522B;&#x662F;</p>
 <ul>
-<li>&#x83DC;&#x9E1F;&#x6559;&#x7A0B; Bootstrap 4 &#x6559;&#x7A0B;&#xFF1A; <a href="http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html" target="_blank">http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html</a></li>
+<li><a href="https://www.imooc.com/learn/418" target="_blank">&#x6837;&#x5F0F;&#x7BC7;</a></li>
+<li><a href="https://www.imooc.com/learn/530" target="_blank">DOM &#x7BC7;</a></li>
+<li><a href="https://www.imooc.com/learn/429" target="_blank">&#x4E8B;&#x4EF6;&#x7BC7;</a></li>
+<li><a href="https://www.imooc.com/learn/430" target="_blank">&#x52A8;&#x753B;&#x7BC7;</a></li>
 </ul>
+<p>&#x53C2;&#x8003;&#x8D44;&#x6599;&#xFF1A;&#x83DC;&#x9E1F;&#x6559;&#x7A0B; &#x2014;&#x2014; <a href="http://www.runoob.com/jquery/jquery-tutorial.html" target="_blank">jQuery &#x6559;&#x7A0B;</a></p>
 <h3 id="&#x6CE8;&#x610F;">&#x6CE8;&#x610F;</h3>
-<ul>
-<li><p>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;Bootstrap &#x7684;&#x6240;&#x6709; JavaScript &#x63D2;&#x4EF6;&#x90FD;&#x4F9D;&#x8D56; jQuery&#xFF0C;&#x56E0;&#x6B64; jQuery &#x5FC5;&#x987B;&#x5728; Bootstrap &#x4E4B;&#x524D;&#x5F15;&#x5165;&#x3002;&#x76EE;&#x524D;&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x6CA1;&#x6709;&#x8BB2;&#x5230; JavaScript &#x548C; jQuery &#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x600E;&#x4E48;&#x53BB;&#x5F15;&#x5165; jQuery &#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;</p>
-</li>
-<li><p>&#x6709;&#x5F88;&#x591A;&#x50CF; Bootstrap &#x8FD9;&#x6837;&#x7684;&#x524D;&#x7AEF; UI &#x6846;&#x67B6;&#xFF0C;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x57FA;&#x672C;&#x4E0A;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x5B66;&#x4F1A;&#x4F7F;&#x7528; Bootstrap &#x4E4B;&#x540E;&#xFF0C;&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4E0A;&#x624B;&#x5176;&#x4ED6; UI &#x6846;&#x67B6;&#x3002;&#x672C;&#x8282;&#x5B66;&#x4E60;&#x65F6;&#x95F4;&#x63A7;&#x5236;&#x5728;&#x4E00;&#x5468;&#x4E4B;&#x7C7B;&#x3002;</p>
-</li>
-</ul>
+<p>&#x6B64;&#x7AE0;&#x8282;&#x5185;&#x5BB9;&#x8F83;&#x591A;&#xFF0C;&#x9700;&#x8981;&#x6295;&#x5165;&#x8DB3;&#x591F;&#x7684;&#x65F6;&#x95F4;&#x548C;&#x7CBE;&#x529B;&#xFF0C;&#x575A;&#x6301;&#x5B66;&#x4E60;&#xFF01;&#xFF01;&#xFF01;</p>
+<blockquote>
+<p>&#x6B64;&#x523B;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x4E9B;<a href="https://image.baidu.com/search/detail?z=0&amp;ipn=d&amp;word=%E9%B8%A1%E6%B1%A4&amp;step_word=&amp;hs=0&amp;pn=0&amp;spn=0&amp;di=159213795180&amp;pi=&amp;tn=baiduimagedetail&amp;is=0%2C0&amp;istype=0&amp;ie=utf-8&amp;oe=utf-8&amp;cs=144494683%2C1743317994&amp;os=1561322755%2C3375387481&amp;simid=0%2C0&amp;adpicid=0&amp;lpn=0&amp;fm=&amp;sme=&amp;cg=&amp;bdtype=0&amp;simics=234681055%2C591042529&amp;oriquery=&amp;objurl=http%3A%2F%2Fimg.laozongyi.com%2Fportal%2F201606%2F01%2F170514mkhkkfdd0dy4r7f7.jpg&amp;fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bsw5z5g2yt_z%26e3Bv54AzdH3Fzi5g2ytAzdH3Fd9dnm0_z%26e3Bip4s&amp;gsm=0&amp;cardserver=1" target="_blank">&#x9E21;&#x6C64;</a>&#x3002;</p>
+</blockquote>
 
                                 
                                 </section>
@@ -308,12 +318,12 @@
 
             
                 
-                <a href="h5-css3.html" class="navigation navigation-prev " aria-label="Previous page: HTML+CSS">
+                <a href="js-basis.html" class="navigation navigation-prev " aria-label="Previous page: 三、JavaScript 基础语法">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="js-basis.html" class="navigation navigation-next " aria-label="Next page: 三、JavaScript 基础语法">
+                <a href="js-dom.html" class="navigation navigation-next " aria-label="Next page: 五、JavaScript DOM 操作">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -324,7 +334,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Bootstrap","level":"1.3.2","depth":2,"next":{"title":"三、JavaScript 基础语法","level":"1.4","depth":1,"path":"list/js-basis.md","ref":"./list/js-basis.md","articles":[]},"previous":{"title":"HTML+CSS","level":"1.3.1","depth":2,"path":"list/h5-css3.md","ref":"./list/h5-css3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"list/bootstrap.md","mtime":"2018-02-24T01:12:53.148Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-24T03:37:14.822Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"四、jQuery 基础","level":"1.5","depth":1,"next":{"title":"五、JavaScript DOM 操作","level":"1.6","depth":1,"path":"list/js-dom.md","ref":"./list/js-dom.md","articles":[]},"previous":{"title":"三、JavaScript 基础语法","level":"1.4","depth":1,"path":"list/js-basis.md","ref":"./list/js-basis.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"list/jquery-basis.md","mtime":"2018-02-24T03:29:43.472Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-24T03:37:14.822Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
