@@ -33,8 +33,10 @@
 
 ### 学习要求
 
-* git clone 题目 [JavaScript 集合运算合集](https://github.com/CoolCodeTribe/collection-calculate-camp) 到本地开发环境，完成 practices 代码以使 specs 测试通过。
+* git clone 题目 [JavaScript 集合运算合集](https://github.com/IDeepspace/collection-calculate-camp) 到本地开发环境，完成 practices 代码以使 specs 测试通过。
 
 ```
-$ git clone https://github.com/CoolCodeTribe/collection-calculate-camp.git
+$ git clone https://github.com/IDeepspace/collection-calculate-camp.git
 ```
+
+* 参考代码在仓库的 answer 分支上

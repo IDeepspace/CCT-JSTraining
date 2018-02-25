@@ -9,3 +9,4 @@
 * [四、jQuery 基础](./list/jquery-basis.md)
 * [五、JavaScript DOM 操作](./list/js-dom.md)
 * [六、JavaScript 初级](./list/js-primary.md)
+* [七、任务分解（Tasking）](./list/tasking.md)
