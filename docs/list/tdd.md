@@ -20,6 +20,7 @@
 * TDD
   * 自学资料：
     * [《深度解读 - TDD》](http://www.jianshu.com/p/62f16cd4fef3)
+    * [从一个小例子学习 TDD](http://icodeit.org/2014/11/tdd-step-by-step/)
 
 ### TDD 基础练习
 
