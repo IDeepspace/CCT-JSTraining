@@ -17,4 +17,6 @@
 * [十二、使用 json-server 模拟 REST API](./list/json-server.md)
 * [十三、AJAX](./list/ajax.md)
 * [十四、项目练习](./list/project.md)
-* [十五、React](./list/react.md)
+* [十五、React and Redux](./list/react-redux.md)
+* [十六、Node.js Express 框架](./list/nodejs.md)
+* [十七、MongoDB](./list/mongodb.md)
