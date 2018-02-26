@@ -8,13 +8,6 @@ MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是
 
 ### 学习资源
 
+* [MongoDB 官方文档](https://docs.mongodb.com/)
 * [MongoDB 学习笔记](http://www.togoblog.cn/post/learn-mongodb/)
 * [菜鸟教程 —— MongoDB 教程](http://www.runoob.com/mongodb/mongodb-tutorial.html)
-* [Express + Mongoose 学习笔记](http://www.togoblog.cn/post/express-mongoose/)
-* [express 框架构建 restful 风格的服务 API](https://shimo.im/doc/qyB2QZMEihQGgCN7)
-
-### 学习要求
-
-* git clone [在线影院项目](https://github.com/CoolCodeTribe/MovieTheatre.git)到本地开发环境
-* 综合利用自己的所学知识
-* 个人独立完成该项目(前后端)，并上传到自己的 github
