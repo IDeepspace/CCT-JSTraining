@@ -8,7 +8,7 @@
 
 安装完成后，在开始菜单里找到 `Git -> Git Bash` ，蹦出一个类似命令行窗口的东西，就说明 Git 安装成功！
 
-安装 Git 之后，需要学习一下如何使用它：[Git 参考教程](http://ideepspace.gitee.io/mybook-git/docs/)
+安装 Git 之后，需要学习一下如何使用它：[Git 参考教程](https://ideepspace.gitbooks.io/git/content/)
 
 同时，你也得学习下如何使用 github 或者码云：[GitHub 使用教程详解](http://blog.csdn.net/kabulore/article/details/51801337)
 
